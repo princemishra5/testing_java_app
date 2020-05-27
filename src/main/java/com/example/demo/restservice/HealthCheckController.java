@@ -17,6 +17,7 @@ public class HealthCheckController {
     @GetMapping("/ping")
     public String healthCheck() {
         logger.info("/ping request received");
+        logger.info("/Hi Cloudx Team");
 
         return "PONG";
     }
