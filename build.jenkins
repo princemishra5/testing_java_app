@@ -4,8 +4,8 @@ def PROJECT = "testing-java-app"
 def TEAM = "semics"
 def label = "${PROJECT}-${UUID.randomUUID().toString()}"
 def MAVEN_OPTIONS = "-DskipTests"
-def IMAGE_URL="acrsharedcommon31807.azurecr.io"
-def APP_CLUSTER_URL="sample-java-app-dev-a1039185.hcp.westus2.azmk8s.io"
+def IMAGE_URL="acrsharedcommon40853.azurecr.io"
+def APP_CLUSTER_URL="sample-java-app-dev-a0501ad2.hcp.westus2.azmk8s.io"
 
 podTemplate(
     label: label,
